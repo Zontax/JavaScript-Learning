@@ -36,7 +36,7 @@ h1 {
 ul.mainmenu {
   list-style: none;
   overflow: hidden;
-  background-color: rgb(29, 27, 35);
+  background-color: #1d1b23;
   margin: 0px;
   padding: 15px 0px;
   font-size: 20px;
@@ -52,8 +52,8 @@ ul.mainmenu li a {
 }
 ul.mainmenu li a:hover {
   transition: 0.2s;
-  color: rgb(232, 232, 232);
-  background-color: rgb(41, 38, 47);
+  color: #e8e8e8;
+  background-color: #29262f;
 }
 ul.mainmenu li.username {
   float: right;
