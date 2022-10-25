@@ -17,9 +17,9 @@ footer.footer {
 	bottom: 0px;
 	text-align: right;}
 a { 
+	text-decoration: none;
 	transition: 0.1s;
-	color: #E48F13FF; 
-	text-decoration: none;}
+	color: #E48F13FF; }
 a:hover {
 	transition: 0.1s;
 	color: #83530BFF;
@@ -28,38 +28,25 @@ h1 {margin: 0px;}
 ul.mainmenu {
 	list-style: none;
 	overflow: hidden;
-	background-color: #E48F13FF;
+	background-color: rgb(29, 27, 35);
 	margin: 0px;
 	padding: 15px 0px;
 	font-size: 20px;}
-ul.mainmenu li.namesite {float: left;}
 ul.mainmenu li {
-	float: left;
-	margin: 0px 0px 0px 0px;}
+	float: left;}
 ul.mainmenu li a {
 	text-decoration: none;
-	transition: 0.3s;
+	transition: 0.2s;
 	color: white;
 	padding: 20px 40px;}
 ul.mainmenu li a:hover {
-	transition: 0.3s;
+	transition: 0.2s;
 	color: white;
-	background-color: #F1AB42FF;}
+	background-color: rgb(41, 38, 47);}
 ul.mainmenu li.username {float: right;}
 div.content {
 	margin: 0px 175px;
 	padding: 20px 16px;}
-div.form-back {
-	padding: 15px;
-	margin: 10%;
-	margin-top: 0px;
-	background-color: #F2F2F3FF;
-	border: 1px solid #83530BFF;
-	border-radius: 5px;}
-.timestamp {
-	font-family: 'MS Sans Serif', Geneva, sans-serif;
-	font-size: 15px;
-	color: #151515FF;}
 p.flash-success {
 	font-size: 19px;
 	padding: 6px;
