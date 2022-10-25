@@ -41,11 +41,11 @@ ul.mainmenu li a {
 	padding: 20px 40px;}
 ul.mainmenu li a:hover {
 	transition: 0.2s;
-	color: white;
+	color: rgb(232, 232, 232);
 	background-color: rgb(41, 38, 47);}
 ul.mainmenu li.username {float: right;}
 div.content {
-	margin: 0px 175px;
+	margin: 0px 100px;
 	padding: 20px 16px;}
 p.flash-success {
 	font-size: 19px;
