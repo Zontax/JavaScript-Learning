@@ -45,8 +45,8 @@ ul.mainmenu li a:hover {
 	background-color: rgb(41, 38, 47);}
 ul.mainmenu li.username {float: right;}
 div.content {
-	margin: 0px 100px;
-	padding: 20px 16px;}
+	margin: 0px 60px;
+	padding: 10px 15px;}
 p.flash-success {
 	font-size: 19px;
 	padding: 6px;
