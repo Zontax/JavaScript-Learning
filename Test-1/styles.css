@@ -1,72 +1,72 @@
 body {
-  /*font-family: 'Comic Sans MS', cursive;*/
-  font-family: Calibri;
-  background-color: #f2f2f3ff;
-  color: #151515ff;
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
+    /*font-family: 'Comic Sans MS', cursive;*/
+    font-family: Calibri;
+    background-color: #f2f2f3ff;
+    color: #151515ff;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
 }
 div {
-  background-color: white;
+    background-color: white;
 }
 footer.footer {
-  position: bottom;
-  width: 100%;
-  color: #191919ff;
-  font-size: 17px;
-  background-color: #f2f2f3ff;
-  bottom: 0px;
-  text-align: right;
+    position: bottom;
+    width: 100%;
+    color: #191919ff;
+    font-size: 17px;
+    background-color: #f2f2f3ff;
+    bottom: 0px;
+    text-align: right;
 }
 a {
-  text-decoration: none;
-  transition: 0.1s;
-  color: black;
+    text-decoration: none;
+    transition: 0.1s;
+    color: black;
 }
 a:hover {
-  transition: 0.1s;
-  color: #808080;
-  text-decoration: underline;
+    transition: 0.1s;
+    color: #808080;
+    text-decoration: underline;
 }
 h1 {
-  margin: 0px;
+    margin: 0px;
 }
 ul.mainmenu {
-  list-style: none;
-  overflow: hidden;
-  background-color: #1d1b23;
-  margin: 0px;
-  padding: 15px 0px;
-  font-size: 20px;
+    list-style: none;
+    overflow: hidden;
+    background-color: #1d1b23;
+    margin: 0px;
+    padding: 15px 0px;
+    font-size: 20px;
 }
 ul.mainmenu li {
-  float: left;
+    float: left;
 }
 ul.mainmenu li a {
-  text-decoration: none;
-  transition: 0.2s;
-  color: white;
-  padding: 20px 40px;
+    text-decoration: none;
+    transition: 0.2s;
+    color: white;
+    padding: 20px 40px;
 }
 ul.mainmenu li a:hover {
-  transition: 0.2s;
-  color: #e8e8e8;
-  background-color: #29262f;
+    transition: 0.2s;
+    color: #e8e8e8;
+    background-color: #29262f;
 }
 ul.mainmenu li.username {
-  float: right;
+    float: right;
 }
 div.content {
-  margin: 0px 60px;
-  padding: 10px 15px;
+    margin: 0px 60px;
+    padding: 10px 15px;
 }
 p.flash-success {
-  font-size: 19px;
-  padding: 6px;
-  margin-top: -15px;
-  background-color: #aeffc5;
-  border: 1px solid green;
-  border-radius: 2px;
+    font-size: 19px;
+    padding: 6px;
+    margin-top: -15px;
+    background-color: #aeffc5;
+    border: 1px solid green;
+    border-radius: 2px;
 }
