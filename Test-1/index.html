@@ -1,25 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link type="text/css" href="styles.css" rel="stylesheet">
+    <link type="text/css" href="css/styles.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <noscript>ON JavaScript Please!</noscript>
-    <title>Index - JS</title>
+    <noscript>ON JavaScript Please</noscript>
+    <title>Index</title>
 </head>
 <body>
-    <nav class="menu">
+    <nav>
         <ul class="mainmenu"><b>
             <li class="logo"><a href="index.html">Logo</a></li>
-            <li><a href="#">Register</a></li>
-            <li><a href="#">Login</a></li>
-            <li class="username"><a href="#">User</a></li>
+            <li><a href="index.html">Register</a></li>
+            <li><a href="index.html">Login</a></li>
+            <li class="username"><a href="index.html">User</a></li>
+            <li class="username"><a id="time"></a></li>
+            <input oninput="OnInput(this)">
+            <button onclick="OnClick(this)">Search</button>
         </ul>
     </nav>
     <div class="content">
-        
-        <script src="js/test2.js"></script>
+        <a id="time">Lorem, ipsum dolor.</a>
+        <span class="simple-text">1.</span>
+        <span class="simple-text">2.</span>
+        <hr>
+        <form id="main-form" method="post">
+            <label for="name">Ім'я:</label>
+            <input type="text" name="name" placeholder="Ім'я" id="name"><br><br>
+            <label for="password">Пароль:</label>
+            <input type="password" name="pass" placeholder="Пароль" id="pass"><br><br>
+            <label for="repass">Перевірка пароля:</label>
+            <input type="password" name="repass" placeholder="Перевірка" id="repass"><br><br>
+            <span>Стать:</span>
+            <input type="radio" name="state" id="male" value="MALE">
+            <label for="male">Чоловіча</label>
+            <input type="radio" name="state" id="female" value="FEMALE">
+            <label for="female">Жіноча</label><br><br>
+            <input type="submit" name="submit" value="Готово">
+            <div class="flash-error" id="error"></div>
+            <div class="flash-success" id="success"></div>
+        </form> 
+        <script src="js/script.js"></script>
     </div>
+    <p class="tiger"></p>
 </body>
 </html>
+
+  

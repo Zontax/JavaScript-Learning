@@ -1,5 +1,4 @@
 body {
-    /*font-family: 'Comic Sans MS', cursive;*/
     font-family: Calibri;
     background-color: #f2f2f3ff;
     color: #151515ff;
@@ -10,15 +9,6 @@ body {
 }
 div {
     background-color: white;
-}
-footer.footer {
-    position: bottom;
-    width: 100%;
-    color: #191919ff;
-    font-size: 17px;
-    background-color: #f2f2f3ff;
-    bottom: 0px;
-    text-align: right;
 }
 a {
     text-decoration: none;
@@ -61,12 +51,5 @@ ul.mainmenu li.username {
 div.content {
     margin: 0px 60px;
     padding: 10px 15px;
-}
-p.flash-success {
-    font-size: 19px;
-    padding: 6px;
-    margin-top: -15px;
-    background-color: #aeffc5;
-    border: 1px solid green;
-    border-radius: 2px;
+    text-align: center;
 }

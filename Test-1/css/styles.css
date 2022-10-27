@@ -1,0 +1,84 @@
+body {
+    /*font-family: 'Comic Sans MS', cursive;*/
+    background-color: #f2f2f3ff;
+    color: #151515ff;
+    font-family: Calibri;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+div {
+    background-color: white;
+}
+footer.footer {
+    background-color: #f2f2f3ff;
+    color: #191919ff;
+    position: bottom;
+    width: 100%;
+    bottom: 0px;
+    font-size: 17px;
+    text-align: right;
+}
+a {
+    color: black;
+    text-decoration: none;
+    transition: 0.1s;
+}
+a:hover {
+    color: #808080;
+    text-decoration: underline;
+    transition: 0.1s;
+}
+h1,
+h2 {
+    margin: 0px;
+}
+ul.mainmenu {
+    background-color: #1d1b23;
+    list-style: none;
+    overflow: hidden;
+    margin: 0px;
+    padding: 16px 0px;
+    font-size: 20px;
+}
+ul.mainmenu li {
+    float: left;
+}
+ul.mainmenu li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+    padding: 20px 35px;
+}
+ul.mainmenu li a:hover {
+    background-color: #29262f;
+    color: #e8e8e8;
+    transition: 0.2s;
+}
+ul.mainmenu li.username {
+    float: right;
+}
+div.content {
+    margin: 0px 60px;
+    padding: 10px 15px;
+    text-align: center;
+}
+.flash-success {
+    background-color: #aeffc5;
+    color: green;
+    margin-top: 8px;
+    border-radius: 4px;
+    text-align: center;
+    left: 50%;
+    right: 50%;
+}
+div.flash-error {
+    background-color: #fcd3d3;
+    color: red;
+    margin-top: 8px;
+    border-radius: 4px;
+    text-align: center;
+    left: 50%;
+    right: 50%;
+}
